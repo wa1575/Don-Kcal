@@ -23,7 +23,12 @@ Don Kal is an application that combines a calculator that calculates body mass b
 
 ### 3-2. Calorie account module.
 ∙ If you enter an activity on that date, you can calculate the calories accordingly in the account.
+<br>
 ∙ It's easy to record calories by dividing into working out and eating food.
+<br>
 ∙ Performing a diet by updating the remaining calories of the user according to the record.
+<br>
 ∙ If you press and hold, you can delete and edit it.
+<br>
 ∙ You can check the functionality through help.
+<br>
