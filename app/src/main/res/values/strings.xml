@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Don Kcal</string>
+
+
+    <string name="unit_label">Units</string>
+    <string name="gender_label">Gender</string>
+    <string name="age_label">Age</string>
+    <string name="height_label">Height</string>
+    <string name="weight_label">Weight</string>
+    <string name="activity_label">Activity</string>
+    <string name="tot_label">Total</string>
+    <string name="reset_label">Clear screen</string>
+    <string name="calculate_label">Calculate</string>
+    <string name="history_label">View History</string>
+    <string-array name="units_array">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="activity_array">
+        <item>Sedentary</item>
+        <item>Lightly active</item>
+        <item>Moderately active</item>
+        <item>Very active</item>
+        <item>Extremely active</item>
+    </string-array>
+    <string name="title_activity_results">Results</string>
+    <string name="bmr_label">BMR</string>
+    <string name="tdee_label">TDEE</string>
+    <string name="bmi_label">BMI</string>
+    <string name="log_label">Save result</string>
+    <string name="action_about">Help</string>
+    <string name="action_profile">Edit Profile</string>
+    <string name="title_activity_about_me">Help</string>
+    <string name="aboutApp">
+        <!--
+        <b><u>What is TDEE?</u></b>
+        \nTDEE, total daily energy expenditure,
+        is the amount of energy in calories you burn per day.
+        TDEE is best calculated by factoring in your BMR, or basal metabolic rate, and your activity level.
+        \n\n<b><u>What is BMR?</u></b>
+        \nBMR is the amount of calories you would burn per day at rest, in other words eating less than this value could be dangerous.
+        \n\n<b><u>What is BMI?</u></b>
+        \nBody Mass Index (BMI) is a relationship between weight and height, which is used to categorize a person as underweight, normal weight, overweight.
+        \n\n<b><u>What do the activity level mean?</u></b>
+        \n<b>Sedentary</b> = Little or no Exercise/ desk job
+        \n<b>Lightly Active</b> = Light exercise/ sports 1 – 3 days/ week
+        \n<b>Moderately Active</b> = Moderate Exercise, sports 3 – 5 days/ week
+        \n<b>Very Active</b> = Heavy Exercise/ sports 6 – 7 days/ week
+        \n<b>Extremely Active</b> = Very heavy exercise/ physical job/ training 2 x/ day
+        -->
+        <b><u>사용 방법</u></b>
+        \n\n
+        <br>(0) 단위를 선택합니다. \n</br>
+        <br>(1) 성별, 나이를 선택합니다. \n</br>
+        <br>(2) 키, 몸무게를 입력합니다. \n</br>
+        <br>(3) 원하는 목표를 설정한 뒤 계산합니다. \n</br>
+        <br>(4) 계산한 결과를 저장하거나 다시 계산합니다. \n</br>
+        <br>\n </br><br>\n </br>
+        <br><b><u>용어 설명</u></b>\n</br>
+        <br> \n</br>
+        <br><b>BMR</b>\n</br>
+        <br> : 기초 대사율, 신체 기능을 하기 위해 필수적인 칼로리입니다.\n</br>
+        <br>\n </br>
+        <br><b>TDEE</b>\n</br>
+        <br> : 총 일일 에너지 소비량, 사람이 하루에 소모하는 총 칼로리 양입니다.\n</br>
+        <br> \n</br>
+        <br><b>BMI</b>\n</br>
+        <br> : 체질량 지수, 체중(kg)을 신장(m)의 제곱으로 나눈 값 \n</br>
+        <br> &#160;&#160;&#160;정상 : BMI 20~25 \n</br>
+        <br> &#160;&#160;&#160;과체중(1도 비만) : BMI 25~29.9 \n</br>
+        <br> &#160;&#160;&#160;비만(2도 비만) : BMI 30~40 \n </br>
+        <br> &#160;&#160;고도비만 : BMI 40.1 이상 \n</br>
+    </string>
+    <string name="aboutBank">
+        <b><u>사용 방법</u></b>\n\n
+        <br>운동을 했을 경우\n</br>
+        <br>(1) 현재 계산된 칼로리를 클릭합니다.\n</br>
+        <br>(2) 수행한 운동을 선택합니다.\n</br>
+        <br>(3) 자동으로 입력되지만, 마음대로 쓸 수 있습니다.\n</br>
+        <br>(4) 확인 버튼을 누르면 자동으로 갱신됩니다.\n</br>
+        \n
+        <br>음식을 먹었을 경우\n</br>
+        <br>(1) 다이얼로그에서 음식 버튼을 누릅니다.\n </br>
+        <br>(2) 먹은 음식을 선택합니다.\n </br>
+        <br>(3) 자동으로 입력되지만, 마음대로 쓸 수 있습니다.\n </br>
+        <br>(4) 확인 버튼으로 자동으로 갱신됩니다. \n</br>
+
+        <br>\n </br>
+        <br> <b>삭제</b>하고 싶은 항목은 <b><u>꾸욱</u></b> 눌러주면 됩니다. \n</br>
+
+        <br> \n</br>
+        <br><b><u>각 항목 기본 칼로리</u></b>\n</br>
+        <br><b>운동</b>\n</br>
+        <br> : 1시간 기준 \n</br>
+        <br>\n </br>
+        <br><b>음식</b>\n</br>
+        <br> : 1인분, 100g, 1컵 기준 \n</br>
+        <br> 예시) 빵은 식빵 1조각, 과일은 사과 1개 \n</br>
+        <br>  &#160;&#160;&#160;베이컨, 달걀, 생선 100g \n</br>
+        <br>  &#160;&#160;&#160;피자, 치킨 각 1조각 \n</br>
+        <br>  &#160;&#160;&#160;커피, 주스 머그컵 \n</br>
+    </string>
+    <string name="view_code">View source code</string>
+    <string name="tooMuch">We’z Gunna Give’em a ProPa <b><u>WAAAGH!</u></b></string>
+    <string name="title_activity_history">History</string>
+    <string name="bmi_status">You are</string>
+    <string name="tryingTo_label">Trying to</string>
+    <string-array name="tryingTo_array">
+        <item>Loose weight</item>
+        <item>Gain weight</item>
+        <item>Maintain weight</item>
+    </string-array>
+    <string name="tryingToMsg">PlaceHolder</string>
+    <string name="date_label">Date</string>
+    <string name="intake_label">Calories</string>
+    <string name="action_help_bank">Help</string>
+    <string name="action_export_history">Export history</string>
+    <string name="action_exit_history">Exit history</string>
+    <string name="user_label">User</string>
+    <string name="update_button_label">Update Profile</string>
+    <string name="activity_profile_title">Edit Profile</string>
+    <string name="profile_fileName">org.techtown.diet.profile_data</string>
+    <string name="unit_pref">unitPrefKey</string>
+    <string name="gender_pref">genderPrefKey</string>
+    <string name="age_pref">agePrefKey</string>
+    <string name="height_pref">heightPrefKey</string>
+    <string name="weight_pref">weightPrefKey</string>
+    <string name="load_button_label">Load Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="add_new_record">calorie</string>
+    <string name="add_new_record_short">calorie</string>
+    <string name="shortcut_disable_msg">unexpectable</string>
+</resources>

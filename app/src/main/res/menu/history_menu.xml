@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.techtown.diet.History">
+    <item
+        android:id="@+id/action_help_bank"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="100"
+        android:title="@string/action_help_bank"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exit_history"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="100"
+        android:title="@string/action_exit_history"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeRoot">
+<!--
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.AppBarOverlay"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="75dp">
+    -->
+    <LinearLayout
+        android:id="@+id/historyTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:measureWithLargestChild="true"
+        android:padding="3dp"
+        android:stretchColumns="*">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:gravity="center_horizontal"
+            android:weightSum="4"
+            android:orientation="horizontal">
+
+            <!-- android:textColor="@color/icons" />-->
+
+            <TextView
+                android:id="@+id/date_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="@string/date_label"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/intake_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="@string/intake_label"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+            <!-- android:textColor="@color/icons" />-->
+
+            <TextView
+                android:id="@+id/weight_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="@string/weight_label"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+            <!-- android:textColor="@color/icons" />-->
+
+            <TextView
+                android:id="@+id/tot_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="@string/tot_label"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+               <!-- android:textColor="@color/icons" />-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--
+</ScrollView>-->
+</RelativeLayout>
