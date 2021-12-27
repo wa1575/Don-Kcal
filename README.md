@@ -12,9 +12,13 @@ Don Kal is an application that combines a calculator that calculates body mass b
 ## 3. Key functions.
 ### 3-1. Calorie calculator module.
 ∙ Calculate basic metabolism and activity metabolism for an effective diet by receiving user information.
+<br>
 ∙ Based on the calculation results, it provides calorie solutions in the desired way (such as weight loss and gain, etc.).
+<br>
 ∙ You can save and inquire in the form of an account for each date of the basic numerical value.
+<br>
 ∙ If you press and hold, you can delete and edit it.
+<br>
 ∙ You can check the functionality through help.
 
 ### 3-2. Calorie account module.
